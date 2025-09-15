@@ -1,0 +1,42 @@
+<html>
+<head>表单元素</head>
+<body>
+    <FORM action="ok.html" method="get">
+    <!--多选框-->
+    您最喜欢哪些城市：
+    <input type="checkbox" name="cities" value="Beijing">北京
+    <input type="checkbox" name="cities" value="Shanghai">上海  
+    <input type="checkbox" name="cities" value="Suzhou">苏州    
+    <br>
+    <!--单选框-->
+    您的性别是：
+    <input type="radio" name="sex" value="Man">男
+    <input type="radio" name="sex" value="Woman">女
+    <br>
+    <!--隐藏域:希望偷偷提交数据，不要影响界面效果时-->
+    <input type="hidden" name="data" value="ok"/>
+    <!--下拉框，按住ctrl可多选-->
+    请输入您的出生地：
+    <select name="address" size=3 multiple>
+        <option value="四川">四川</option>
+        <option value="北京">北京</option>
+        <option value="西藏">西藏</option>
+    </select>
+    <br>
+    <!--文本域-->
+    <textarea cols="40" rows="10" name="mytextarea"></textarea>
+    <br>
+    <!--文件上传控件-->
+    <input type="file" name="myfile">上传文件
+    <br>
+    <!--提交-->
+    <input type="submit" value="测试"/>
+    <br>
+    <!--图片按钮-->
+    <input type="image" src="./image.png"/>
+    </FORM>
+
+
+
+</body>
+</html>

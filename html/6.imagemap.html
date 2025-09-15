@@ -1,0 +1,44 @@
+<html>
+<head>
+    <script language="javascript">
+    <!--
+        function show(){
+            window.alert('你点击了矩形区域');
+        }
+    -->
+    </script>
+</head>
+<body>
+    <!--坐标体系-->
+    <img src="矩形圆三角.png" usemap="#abc">
+    <!--映射区域-->
+    <map name="abc">
+        <area shape="rect" onclick="show()" coords="140,20,280,60" href="#"  alt="rect.html">
+        <area shape="poly" coords="100,100,180,80,200,140" href="poly.html"  alt="">
+        <area shape="circle" coords="80,100,60" href="circle.html"  alt="">
+    </map>
+    <br/>
+    username:<input type="text" name="text" maxlength="5" style="width: 200px;">
+    <br/>
+    <input type="checkbox" name="fruit" checked/>苹果1
+    <input type="checkbox" name="fruit" checked/>苹果2
+    <input type="checkbox" name="fruit" />苹果3
+    <br/>
+    <input type="radio" name="sex" checked/>男
+    <input type="radio" name="sex"/>女
+    <br/>
+    <select name="address" id="">
+    <option value="beijing">北京</option>
+    <option value="tianjing" selected>天津</option>
+    </select>
+    <br/>
+    请发言：<br/>
+    <textarea name="" id="" cols="40" rows="10" wrap="off">请输入</textarea>
+    <br>
+    用户<input type="text" name="username" id="" value="请输入名字..."/>
+    <br>
+    <marquee bgcolor="pink" behavior="" direction="left" width="50%" scrollamount="20"><img src="dog.jpg" width="70"><img src="dog.jpg" width="70"><img src="dog.jpg" width="70"><img src="dog.jpg" width="70"><img src="dog.jpg" width="70"><img src="dog.jpg" width="70"></marquee>
+
+</body>
+
+</html>
